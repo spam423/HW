@@ -6,23 +6,23 @@ a = -9 b = -3 -> max = -3*/
 
 int numberA, numberB;
 
-Console.WriteLine("Введите первое число");
+Console.WriteLine("first number");
 numberA = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите второе число");
+Console.WriteLine("second number");
 numberB = Convert.ToInt32(Console.ReadLine());
 
 if (numberA < numberB)
 {
-    Console.WriteLine("Наибольшее число");
+    Console.WriteLine("max");
     Console.WriteLine(numberB);
-    Console.WriteLine("Наименьшее число");
+    Console.WriteLine("min");
     Console.WriteLine(numberA);
 }
 
 else
 {
-    Console.WriteLine("Наибольшее число");
+    Console.WriteLine("max");
     Console.WriteLine(numberA);
-    Console.WriteLine("Наименьшее число");
+    Console.WriteLine("min");
     Console.WriteLine(numberB);
 }
