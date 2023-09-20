@@ -26,3 +26,5 @@ else
     Console.WriteLine("min");
     Console.WriteLine(numberB);
 }
+
+//Почему-то .gitignore не хочет "игнорировать" файлы в Task_2
