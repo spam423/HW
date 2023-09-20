@@ -13,10 +13,16 @@ numberB = Convert.ToInt32(Console.ReadLine());
 
 if (numberA < numberB)
 {
+    Console.WriteLine("Наибольшее число");
     Console.WriteLine(numberB);
+    Console.WriteLine("Наименьшее число");
+    Console.WriteLine(numberA);
 }
 
 else
 {
+    Console.WriteLine("Наибольшее число");
     Console.WriteLine(numberA);
+    Console.WriteLine("Наименьшее число");
+    Console.WriteLine(numberB);
 }
