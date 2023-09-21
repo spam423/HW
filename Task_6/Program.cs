@@ -15,10 +15,8 @@ sum = number % 2;
 if (sum == 0)
 {
     Console.WriteLine("yes");
-    Console.WriteLine(sum);
 }
 else
 {
     Console.WriteLine("no");
-    Console.WriteLine(sum);
 }
