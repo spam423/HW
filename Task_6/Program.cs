@@ -10,8 +10,15 @@ int sum;
 Console.WriteLine("Enter number");
 number = Convert.ToInt32(Console.ReadLine());
 
-if
+sum = number % 2;
 
-( sum = number % 2 );
-
-Console.WriteLine( sum );
+if (sum == 0)
+{
+    Console.WriteLine("yes");
+    Console.WriteLine(sum);
+}
+else
+{
+    Console.WriteLine("no");
+    Console.WriteLine(sum);
+}
